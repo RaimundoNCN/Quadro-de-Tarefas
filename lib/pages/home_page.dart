@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     if (_boards.isEmpty) {
       return Scaffold(
-        //appBar: AppBar(title: Text('Quadros')),
+        appBar: AppBar(title: Text('Quadros')),
         body: Center(child: Text('Nenhum quadro encontrado.')),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
@@ -91,17 +91,6 @@ class _HomePageState extends State<HomePage> {
             onPressed: () => _showCreateListDialog(context, board),
           ),
         ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        splashColor: Colors.amber,
-        backgroundColor: Colors.green,
-        tooltip: "Adicionar tarefa na primeira lista",
-        onPressed: () {
-          if (board.lists.isNotEmpty) {
-            _showCreateTaskCard(context, board.lists.first);
-          }
-        },
-        child: Icon(Icons.add),
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
@@ -402,16 +391,6 @@ class _HomePageState extends State<HomePage> {
               maxLength: 50,
             ),
             SizedBox(height: 12),
-            TextField(
-              controller: descController,
-              decoration: InputDecoration(
-                labelText: 'Descrição (opcional)',
-                border: OutlineInputBorder(),
-              ),
-              maxLines: 3,
-              maxLength: 200,
-            ),
-            SizedBox(height: 20),
             ElevatedButton.icon(
               icon: Icon(Icons.check),
               label: Text('Criar'),
