@@ -55,7 +55,6 @@ Aplicativo mobile (Android/iOS) desenvolvido em Flutter, inspirado em ferramenta
 1. Clone o repositório:
     ```sh
     git clone https://github.com/RaimundoNCN/Quadro-de-Tarefas.git
-    cd teste
     ```
 2. Instale as dependências:
     ```sh
