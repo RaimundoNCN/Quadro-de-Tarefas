@@ -54,8 +54,8 @@ Aplicativo mobile (Android/iOS) desenvolvido em Flutter, inspirado em ferramenta
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/kanban-master.git
-    cd kanban-master
+    git clone https://github.com/RaimundoNCN/Quadro-de-Tarefas.git
+    cd teste
     ```
 2. Instale as dependências:
     ```sh
@@ -73,9 +73,9 @@ Este projeto foi desenvolvido para portfólio, com foco em arquitetura limpa, se
 
 ## 📫 Contato
 
-- **GitHub:** [Seu usuário](https://github.com/seu-usuario)
-- **LinkedIn:** [Seu LinkedIn](https://linkedin.com/in/seu-linkedin)
-- **Email:** seu@email.com
+- **GitHub:** [Raimundo NCN](https://github.com/RaimundoNCN)
+- **LinkedIn:** [Raimundo Neto](https://www.linkedin.com/in/raimundo-nazareno-concei%C3%A7%C3%A3o-neto-853083195?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BC1qCdofWTe%2BnqQWVZKjkbw%3D%3D)
+- **Email:** raimundo.n.neto10@gmail.com
 
 ---
-Desenvolvido por [Seu Nome]
+Desenvolvido por [RaimundoNCN]
