@@ -1,4 +1,4 @@
-# Kanban Master - App de Gestão de Tarefas
+# Quadro-de-Tarefas - App de Gestão de Tarefas
 
 Aplicativo mobile (Android/iOS) desenvolvido em Flutter, inspirado em ferramentas como Trello e Jira. O objetivo é demonstrar habilidades em Flutter, arquitetura limpa e boas práticas de desenvolvimento, focando em um fluxo de trabalho moderno para organização de tarefas.
 
