@@ -4,6 +4,7 @@ Aplicativo mobile (Android/iOS) desenvolvido em Flutter, inspirado em ferramenta
 
 ## ✨ Funcionalidades
 
+- **Plataformas:** Android - Web - Windows Desktop.
 - **Quadros e Listas Personalizáveis:** Crie quadros de projetos e listas (ex: "A Fazer", "Em Andamento", "Concluído").
 - **Cards de Tarefas:** Adicione, edite e mova tarefas entre listas.
 - **Drag & Drop:** Arraste tarefas entre listas de forma intuitiva.
